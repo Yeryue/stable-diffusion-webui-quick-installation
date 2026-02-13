@@ -42,4 +42,9 @@ The repository also provides a startup script, launchai.sh, which can be used in
 
 仓库还提供了一个启动脚本launchai.sh，可在.bashrc或.zshrc等文件中使用(source),但是有点bug,在文件内有注释
 
+My skills are limited, so please feel free to point out any errors.
+
+本人学艺不精，如有bug尽情指出
+
+
 enjoy                :)
