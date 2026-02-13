@@ -9,7 +9,6 @@ git clone https://github.com/AUTOMATIC1111/stable-diffusion-webui.git
 chmod +x ./stable-diffusion-webui/webui.sh
 sh ./stable-diffusion-webui/webui.sh
 sleep 0.3
-cd
 pip install pip==23
 pip install setuptool==79.0.1
 rm -r  ./stable-diffusion-webui/venv/lib/python3.10/site-packages/setuptools ./stable-diffusion-webui/venv/lib/python3.10/site-packages/setuptools-69.5.1.dist-info
