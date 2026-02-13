@@ -12,6 +12,9 @@ cd stable-diffusion-webui/venv/bin
 source activate
 pip install pip==23
 pip install setuptool==79.0.1
+cd ..
+cd ..
+cd ..
 rm -r  ./stable-diffusion-webui/venv/lib/python3.10/site-packages/setuptools ./stable-diffusion-webui/venv/lib/python3.10/site-packages/setuptools-69.5.1.dist-info
 pip install setuptool==79.0.1
 #./stable-diffusion-webui/webui.sh
