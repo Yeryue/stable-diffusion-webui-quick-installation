@@ -6,6 +6,7 @@ conda create -n anyname python=3.10
 sleep 1
 conda activate anyname
 git clone https://github.com/AUTOMATIC1111/stable-diffusion-webui.git
+sleep 1
 chmod +x ./stable-diffusion-webui/webui.sh
 sh ./stable-diffusion-webui/webui.sh
 sleep 0.3
