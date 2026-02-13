@@ -1,7 +1,7 @@
 # stable-diffusion-webui-quick-installation（ai生成图片）
-Because of the original repository's Python environment (Python 3.10) and errors in the code, I decided to write a simple installation script.
+Because of the original author's Python environment (Python 3.10) and the errors in the code's repository, I decided to write a simple installation script (I personally use Arch Linux and have updated Python).
 
-因为原仓库的python环境(python3.10)以及代码中错误的仓库,我决定写一个简易的安装脚本
+因为原作者开发时的python环境(python3.10)以及代码中错误的仓库,我决定写一个简易的安装脚本（本人使用archlinux,python过新）
 
 Currently known dependencies include git, python3, and python3-env. For more dependencies, please visit the official website https://www.anaconda.com/download/ (Anaconda website) and https://github.com/AUTOMATIC1111/stable-diffusion-webui (stable-diffusion-webui repository).
 
