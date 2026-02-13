@@ -11,7 +11,7 @@ This repository uses Anaconda to create a Python 3.10 environment. Please modify
 
 本仓库使用anaconda创造python3.10环境，如果介意请修改安装脚本
 
-https://github.com/Yeryue/stable-diffusion-webui-quick-installation.git
+`git clone https://github.com/Yeryue/stable-diffusion-webui-quick-installation.git`
 
 Usage instructions: Install dependencies before execution, 和 fine-tune the dl.sh file (default installation: anaconda>home directory; stable-diffusion-webui>current directory) 
 
