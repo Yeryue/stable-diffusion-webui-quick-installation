@@ -38,8 +38,8 @@ When GitHub asks for your username and password, just press Enter. Since it's an
 
 当github问你用户名和密码时请直接ENTER,因为它是空仓库，输入信息毫无意义，失败后，脚本会复制正确的文件去替换，所以不用担心发生错误
 
-The repository also provides a startup script, launch.sh, which can be used in files such as .bashrc or .zshrc (source), but it has a bug; there are comments in the file.
+The repository also provides a startup script, launchai.sh, which can be used in files such as .bashrc or .zshrc (source), but it has a bug; there are comments in the file.
 
-仓库还提供了一个启动脚本launch.sh，可在.bashrc或.zshrc等文件中使用(source),但是有点bug,在文件内有注释
+仓库还提供了一个启动脚本launchai.sh，可在.bashrc或.zshrc等文件中使用(source),但是有点bug,在文件内有注释
 
 enjoy                :)
