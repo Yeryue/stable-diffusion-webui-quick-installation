@@ -19,7 +19,7 @@ Usage instructions: Install dependencies before execution, 和 fine-tune the dl.
 
 As indicated by the comment on the last instruction, after execution, it will download the desired model from https://civitai.com/ and place it in ./stable-diffusion-webui/models/Stable-diffusion. Otherwise, it will download the default model, which is less reliable.
 
-如注释最后一条指令，在执行完成后从https://civitai.com/下载你想要的模型，放在./stable-diffusion-webui/models/Stable-diffusion中，否则会下载默认模型，不太好用
+如注释最后一条指令，在执行完成后从https://civitai.com 下载你想要的模型，放在./stable-diffusion-webui/models/Stable-diffusion中，否则会下载默认模型，不太好用
 
 `chmod +x ./dl.sh`
 !!Notice：run`. /.dl.sh `,don't use sh,bash...
