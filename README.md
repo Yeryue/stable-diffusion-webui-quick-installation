@@ -7,12 +7,18 @@ Currently known dependencies include git, python3, and python3-env. For more dep
 
 This repository uses Anaconda to create a Python 3.10 environment. Please modify the installation script if you mind.
 本仓库使用anaconda创造python3.10环境，如果介意请修改安装脚本
-`git clone `
+
+https://github.com/Yeryue/stable-diffusion-webui-quick-installation.git
+
 Usage instructions: Install dependencies before execution, 和 fine-tune the dl.sh file (default installation: anaconda>home directory; stable-diffusion-webui>current directory) 
 使用方法，执行前安装依赖，编辑dl.sh文件进行微调（默认安装：anaconda>家目录 ； stable-diffusion-webui>当前目录）（建议挂梯子，不过流量比较多）
 
 As indicated by the comment on the last instruction, after execution, it will download the desired model from https://civitai.com/ and place it in ./stable-diffusion-webui/models/Stable-diffusion. Otherwise, it will download the default model, which is less reliable.
 如注释最后一条指令，在执行完成后从https://civitai.com/下载你想要的模型，放在./stable-diffusion-webui/models/Stable-diffusion中，否则会下载默认模型，不太好用
+
+`chmod +x ./dl.sh`
+!!Notice：run`. /.dl.sh `,don't use sh,bash...
+！！注意：执行`. /.dl.sh`，不要使用sh,bash...
 
 When you run the dl.sh file, Anaconda will ask you questions. It's recommended to press ENTER if prompted and type yes if prompted.
 执行dl.sh文件，anaconda会询问你，建议有ENTER摁ENTER,有yes打yes
