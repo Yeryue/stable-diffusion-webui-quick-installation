@@ -1,6 +1,9 @@
 # stable-diffusion-webui-quick-installation（ai生成图片）
 本文已使用两种语言，建议不网页翻译,容易眼花缭乱
 
+Please read the article before executing the command.
+
+请读完文章后再去执行指令
 
 Because of the original author's Python environment (Python 3.10) and the errors in the code's repository, I decided to write a simple installation script (I personally use Arch Linux and have updated Python).
 
