@@ -4,8 +4,12 @@ ai-image(){
 	export ALL_PROXY=''
 	export all_proxy=''
 	conda activate anyname
+#请将以下内容中的aipath设置为你stable-diffusion-webui的路径，以提高启动速度
+#Please set the aipath in the following content to the path of your stable-diffusion-webui to improve startup speed.
+#==========================================================================
         aipath=$(find -name stable-diffusion-webui -printf "%h\n" | sort -u | shuf -n 1)
 	cd $aipath
+#==========================================================================
 	python3 ./stable-diffusion-webui/launch.py
 	
 }
