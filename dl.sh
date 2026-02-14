@@ -13,7 +13,7 @@ sleep 1
 chmod +x ./stable-diffusion-webui/webui.sh
 sh ./stable-diffusion-webui/webui.sh
 sleep 0.3
-source activate ./stable-diffusion-webui/venv/bin
+source ./stable-diffusion-webui/venv/bin/activate
 pip install pip==23
 pip install setuptools==79.0.1
 #if error:No module named 'pkg_resources'
